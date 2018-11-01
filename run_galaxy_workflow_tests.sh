@@ -13,6 +13,7 @@ planemo $PLANEMO_OPTIONS test \
 	--galaxy_url "https://test.galaxyproject.org" \
 	--galaxy_user_key "$GALAXY_USER_KEY" --no_shed_install \
 	--engine external_galaxy \
+	--test_output_xunit results.xunit \
 	"$1";
 planemo_exit_code=$?
 set -e
