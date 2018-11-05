@@ -182,7 +182,7 @@
                     "name": "singlePaired"
                 }
             ],
-            "label": trim_galore_label,
+            "label": trim_galore_step,
             "name": "Trim Galore!",
             "outputs": [
                 {
