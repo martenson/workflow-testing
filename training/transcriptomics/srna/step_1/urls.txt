@@ -1,0 +1,10 @@
+https://zenodo.org/record/826906/files/Blank_RNAi_sRNA-seq_rep1_downsampled.fastqsanger.gz
+https://zenodo.org/record/826906/files/Blank_RNAi_sRNA-seq_rep2_downsampled.fastqsanger.gz
+https://zenodo.org/record/826906/files/Blank_RNAi_sRNA-seq_rep3_downsampled.fastqsanger.gz
+https://zenodo.org/record/826906/files/dm3_miRNA_hairpin_sequences.fa.gz
+https://zenodo.org/record/826906/files/dm3_rRNA_sequences.fa.gz
+https://zenodo.org/record/826906/files/dm3_transcriptome_sequences_downsampled.fa.gz
+https://zenodo.org/record/826906/files/dm3_transcriptome_Tx2Gene_downsampled.tab.gz
+https://zenodo.org/record/826906/files/Symp_RNAi_sRNA-seq_rep1_downsampled.fastqsanger.gz
+https://zenodo.org/record/826906/files/Symp_RNAi_sRNA-seq_rep2_downsampled.fastqsanger.gz
+https://zenodo.org/record/826906/files/Symp_RNAi_sRNA-seq_rep3_downsampled.fastqsanger.gz

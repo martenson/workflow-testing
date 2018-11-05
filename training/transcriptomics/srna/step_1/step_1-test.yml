@@ -1,0 +1,24 @@
+- doc: Test srna_step_1 fastqc.
+  job:
+    rRNA reference FASTA:
+      class: File
+      location: https://zenodo.org/record/826906/files/dm3_rRNA_sequences.fa.gz
+    miRNA hairpin reference FASTA:
+      class: File
+      location: https://zenodo.org/record/826906/files/dm3_miRNA_hairpin_sequences.fa.gz
+    rnai_collection:
+      class: Collection
+      collection_type: list
+      elements:
+        - identifier: el1
+          class: File
+          location: https://zenodo.org/record/826906/files/Blank_RNAi_sRNA-seq_rep1_downsampled.fastqsanger.gz
+        - identifier: el2
+          class: File
+          location: https://zenodo.org/record/826906/files/Blank_RNAi_sRNA-seq_rep2_downsampled.fastqsanger.gz
+        - identifier: el3
+          class: File
+          location: https://zenodo.org/record/826906/files/Blank_RNAi_sRNA-seq_rep3_downsampled.fastqsanger.gz
+  outputs:
+    trim_galore_step:
+      has_text: "always look on the bright side of life"
