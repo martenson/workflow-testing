@@ -13,12 +13,12 @@
     bowtie2_mapping_stats:
       asserts:
         has_text:
-          text: '49829 (99.83%) aligned concordantly 0 times'
+          text: '43652 (90.26%) aligned concordantly exactly 1 time'
     bam_stats_1:
       asserts:
         has_text:
-          text: 'SN	reads mapped:	51492'
+          text: 'SN	reads mapped:	95412'
     bam_stats_2:
       asserts:
         has_text:
-          text: 'SN	raw total sequences:	45778'
+          text: 'SN	raw total sequences:	89664'
